@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 700878,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearchDemo.browserlaunch()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Searching the input in google search engine",
+        "description": "",
+        "id": "google-search-page-testing;searching-the-input-in-google-search-engine",
+        "after": [
+          {
+            "result": {
+              "duration": 172333,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearchDemo.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6329885961,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is entering Google.co.in",
+            "match": {
+              "location": "OpenGoogleDefinition.user_is_entering_Google_co_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221999524,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the search term \"Jordan Time Zone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jordan Time Zone",
+                  "offset": 28
+                }
+              ],
+              "location": "OpenGoogleDefinition.user_enter_the_search_term(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1909824948,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the enter key",
+            "match": {
+              "location": "OpenGoogleDefinition.click_the_enter_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7267113563,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user should see the search results",
+            "match": {
+              "location": "OpenGoogleDefinition.the_user_should_see_the_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TaggedHook"
+          }
+        ]
+      }
+    ],
+    "name": "Google search page testing",
+    "description": "",
+    "id": "google-search-page-testing",
+    "keyword": "Feature",
+    "uri": "OpenGoogle.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Hooks"
+      }
+    ]
+  }
+]
